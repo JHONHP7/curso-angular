@@ -6,7 +6,7 @@ import { Course } from '../courses/course';
   providedIn: 'root'
 })
 export class CoursesService {
-  apiUrl = 'assets/course.json'; // Caminho relativo ao arquivo JSON
+  apiUrl = 'api/courses'; // Caminho relativo ao arquivo JSON
 
   constructor(private http: HttpClient) {}
 
